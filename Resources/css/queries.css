@@ -1,0 +1,220 @@
+/*----- Big tablets to 1200px: From 1024px to 1200px (widths smaller than the 1140px row) -----*/
+@media only screen and (max-width: 1200px) {
+    .hero-text-box {
+        position: absolute;
+        width: 100%;
+        padding: 0 2%;
+    }
+    
+    .row {
+        padding: 0 2%;
+        width: 100% !important;
+    }
+}
+
+
+/*----- Small tablet to big tablets: From 768px to 1023px -----*/
+@media only screen and (max-width: 1023px) {
+    body {
+        font-size: 18px;
+    }
+    
+    .row,
+    .hero-text-box {
+        padding: 0 4%;
+        width: 95% !important;
+    }
+    
+    section {
+        padding: 60px 0;
+    }
+    
+    header ul li a {
+        font-size: 15px !important;
+    }
+    
+    long-copy {
+        width: 80%;
+        margin-left: 10%;
+    }
+    
+    .steps-box {
+        margin-top: 10px;
+    }
+    
+    .steps-box:last-child {
+        margin-top: 10px;
+    }
+    
+    .works-steps {
+        margin-top: 40px;
+    }
+    
+    .works-steps:last-of-type {
+        margin-bottom: 60px;
+    }
+    
+    .app-screen {
+        width: 50%;
+    }
+    
+    .cities-info p, 
+    .cities-info a {
+        font-size: 12px;
+    }
+    
+    .section-cities h3 {
+        font-size: 20px;
+    }
+    
+    .plan-box {
+        width: 100%;
+    }
+    
+    .plan-box ul li {
+        font-size: 13px;
+        display: flex;
+    }
+    
+    .plan-price {
+        font-size: 45px;
+    }
+}
+
+
+/*----- Phones smaller than iPad: From 481px to 767px -----*/
+@media only screen and (max-width: 767px) {
+    body {
+        font-size: 16px;
+    }
+    
+    section {
+        padding: 30px 0;
+    }
+    
+    .row,
+    .hero-text-box {
+        padding: 0 2%;
+        width: 100% !important;
+    }
+    
+    /*----- REPONSIVE MENU -----*/
+    .main-nav {
+        display: none;
+    }
+    
+    .mobile-nav-icon {
+        display: inline-block;
+    }
+    
+    .main-nav {
+        float: left;
+        margin-top: 35px;
+        margin-right: 100px;
+    }
+    
+    .main-nav li {
+        display: block;
+    }
+    
+    .main-nav li a:link,
+    .main-nav li a:visited {
+        display: block;
+        border: 0;
+        padding: 10px 0;
+        font-size: 100%;
+    }
+    
+    .sticky .main-nav {
+    margin-top: 10px;
+    }
+
+    .sticky .main-nav li a:link,
+    .sticky .main-nav li a:visited {
+        padding: 10px 0;
+    }
+    
+    .sticky .mobile-nav-icon {
+        margin-top: 10px;
+    }
+    
+    .sticky .mobile-nav-icon i {
+        color: #555;
+    }
+    /*----- END REPONSIVE MENU -----*/
+    
+    h1 {
+        font-size: 180% !important;
+    }
+    
+    h2 {
+        font-size: 150% !important;
+    }
+    
+    .cities-info p, 
+    .cities-info a {
+        font-size: 85%;
+    }
+    
+    .long-copy {
+        width: 100%;
+        margin-left: 0%;
+    }
+    
+    .xs-cities, 
+    .xs-plans {
+        margin-bottom: 15px;
+    }
+    
+    .steps-box:first-child {  
+        text-align: center;
+    }
+    
+    .works-steps div {
+        height: 40px;
+        width: 40px;
+        margin-right: 15px;
+        padding: 4px;
+        font-size: 100%;
+    }
+    
+    .works-steps p {
+        display: flex;
+        font-size: 85%;
+    }
+    
+    .map-box {
+    position: relative;
+    width: 100%;
+    height: auto;
+    }
+
+    .map {
+        position: relative;
+        width: 100%;
+        height: 300px;
+        z-index: 0;
+    }
+
+    .form-box {
+        position: relative;
+        width: 100%;
+        background-color: rgba(255, 255, 255, 0.75);
+        z-index: 10;
+        height: auto;
+        padding: 30px 0;
+    } 
+}
+
+
+/*----- Small phones: From 0 to 480px -----*/
+@media only screen and (max-width: 480px) {
+    section {
+        padding: 25px 0;
+    }
+    
+    .contact-form {
+        width: 100%;
+    }
+    
+}
